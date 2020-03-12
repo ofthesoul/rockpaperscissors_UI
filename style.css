@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(to bottom, white, lightgray);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#pics {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#leftpicc {
+    width: 200px;
+    height: 200px;
+    display:flex;
+    align-content: flex-start;
+}
+
+#rightpicc {
+    width: 200px;
+    height: 200px;
+    display:flex;
+    align-content: flex-end;
+}
+
+#instructions {
+    text-align: center;
+    align-self: center;
+    padding: 2, 2, 2, 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+
+#combatlog { 
+    background-color: white;
+    max-height:130px;
+    display:flex; 
+    padding: 1%; 
+    border:2px solid red; 
+    overflow:auto;  
+    flex-direction:column-reverse; 
+    align-self: center;
+    width: 400px;
+    height: 130px;
+    font-size: 14px;
+    box-shadow: 0 4px 4px -1px rgb(155, 155, 155); 
+}
+/*https://stackoverflow.com/questions/18614301/keep-overflow-div-scrolled-to-bottom-unless-user-scrolls-up/44051405#44051405*/
+
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#tracking {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5, 5, 5, 5px;
+    justify-content: space-between;
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#buttons { 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 270px;
+}
+
+#rockBtn {
+    background-color: rgb(243, 243, 243); /* Green */
+    border: 1px solid white;
+    color: rgb(53, 53, 53);
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 80px;
+    cursor: pointer;
+}
+#rockBtn:hover {
+    border: 2px solid gray;
+    box-shadow: 0 2.5px 2px -2px rgb(155, 155, 155);
+}
+#rockBtn:focus {
+    border: 1px solid gray;
+    box-shadow: 0 2.5px 2px -2px rgb(155, 155, 155);
+    outline: none;
+}
+
+#paperBtn {
+    background-color: rgb(243, 243, 243); /* Green */
+    border: 1px solid white;
+    color: rgb(53, 53, 53);
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 80px;
+    cursor: pointer;
+}
+#paperBtn:hover {
+    border: 2px solid lightgray;
+    box-shadow: 0 2.5px 2px -2px rgb(155, 155, 155);
+}
+#paperBtn:focus {
+    border: 1px solid lightgray;
+    box-shadow: 0 2.5px 2px -2px rgb(155, 155, 155);
+    outline: none;
+}
+
+#scissorsBtn {
+    background-color: rgb(243, 243, 243); /* Green */
+    border: 1px solid white;
+    color: rgb(53, 53, 53);
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 80px;
+    cursor: pointer;
+}
+#scissorsBtn:hover {
+    border: 2px solid brown;
+    box-shadow: 0 2.5px 2px -2px rgb(155, 155, 155);
+}
+#scissorsBtn:focus {
+    border: 1px solid brown;
+    box-shadow: 0 2.5px 2px -2px rgb(155, 155, 155);
+    outline: none;
+}
